@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url("../img/beach.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;  
+
+  color: #926239;
+
+  text-align: center;
+  
+}
+
+.main-header {
+  font-size: 5rem;
+  line-height: 1.2  ;
+  text-transform: capitalize;
+  padding-top: 38vh;
+  animation: opacity 1.8s;
+}
+
+.heading-text {
+  font-size: 2rem;
+  line-height: 1.6;
+  animation: opacity 1.8s;
+}
+
+.heading-btn {
+  display: inline-block;
+  border: 1px solid #926239;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px #9263398c;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  padding: 1.4rem 2rem;
+  cursor: pointer;
+  animation: moveUp 1s, opacity .7s;
+  
+  transition: all .1s;
+
+  margin-top: 2rem;
+}
+
+.heading-btn:hover {
+  background-color: #926239;
+  color: white;
+}
+
+.heading-btn:active {
+  transform: translateY(5px);
+}
+
+/* Description */
+
+/* Animation */
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(3.5rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
