@@ -33,7 +33,7 @@ header {
   font-size: 5rem;
   line-height: 1.2  ;
   text-transform: capitalize;
-  padding-top: 38vh;
+  padding-top: 38vh;  
   animation: opacity 1.8s;
 }
 
@@ -47,7 +47,7 @@ header {
   display: inline-block;
   border: 1px solid #926239;
   border-radius: 1rem;
-  box-shadow: 0 4px 10px #9263398c;
+  box-shadow: 0 4px 5px #9263398c;
   font-size: 1.8rem;
   text-transform: capitalize;
   padding: 1.4rem 2rem;
@@ -68,8 +68,48 @@ header {
   transform: translateY(5px);
 }
 
+
+
 /* Description */
 
+.beach-description {
+  background-color: #926239;
+  color: white;
+
+}
+
+.description-header {
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 8rem 0;
+  text-transform: uppercase;
+ 
+}
+
+.description-block {
+  padding-bottom: 10rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.description-img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  box-shadow: 2px 2px 10px #00000071;
+  object-position: top;
+}
+
+.description-text-block {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  vertical-align: top;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+
+}
 /* Animation */
 
 @keyframes opacity {
