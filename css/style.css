@@ -141,8 +141,6 @@ header {
   transform: translateY(-5px); 
 }
 
-
-
 .info-link-text {
   display: block;
   font-size: 3rem;
@@ -151,7 +149,71 @@ header {
   cursor: pointer;
 }
 
+/* Hotel Info */
 
+.hotel-info {
+  text-align: center;
+  background-color: #f4f4f4;
+  border-top:1.2rem dotted #5338206c;
+
+  
+
+}
+
+.hotel-info-header {
+  color: #926239;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+
+  padding: 8rem 0;
+}
+
+.hotel {
+  display: inline-block;
+  width: 33.17%;
+  height: 50rem;
+  vertical-align: top;
+  padding: 5rem;
+  margin-bottom: 5rem;
+}
+
+.hotel-img {
+  width: 25rem;
+  height: 15rem;
+  margin-bottom: 4rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 8px #0000008a;
+  transform: scale(1);
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.hotel-img:hover {
+  transform: scale(1.1);
+}
+
+.hotel-name-heading{
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.hotel-text {
+  font-size: 1.6rem;
+}
+
+.first-hotel {
+  background-color: #926239;
+  color: white;
+}
+
+.second-hotel {
+  color: #926239;
+}
+
+.third-hotel {
+  background-color: #926239;
+  color: white;
+}
 
 /* Animation */
 
