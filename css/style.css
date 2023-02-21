@@ -155,9 +155,6 @@ header {
   text-align: center;
   background-color: #f4f4f4;
   border-top:1.2rem dotted #5338206c;
-
-  
-
 }
 
 .hotel-info-header {
@@ -174,7 +171,7 @@ header {
   height: 50rem;
   vertical-align: top;
   padding: 5rem;
-  margin-bottom: 5rem;
+
 }
 
 .hotel-img {
@@ -204,6 +201,7 @@ header {
 .first-hotel {
   background-color: #926239;
   color: white;
+  border-top-right-radius: 10px;
 }
 
 .second-hotel {
@@ -213,7 +211,46 @@ header {
 .third-hotel {
   background-color: #926239;
   color: white;
+  border-top-left-radius: 10px;
 }
+
+/* Footer */
+
+footer {
+  background-color:#272727;
+  border-top: 1px solid #926239;
+  padding: 5rem 5rem 4rem 5rem;
+  color: white;
+  text-align: center;
+}
+
+.social-media {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.media-logo{
+  font-size: 3rem;
+  transform: scale(1);
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.media-logo:hover{
+  transform: scale(1.1);
+}
+
+.media-logo:not(:last-child) {
+  margin-right: 5rem;
+}
+
+.copy-text {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+
 
 /* Animation */
 
